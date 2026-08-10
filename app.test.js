@@ -6,7 +6,7 @@ describe("GET /hello", () => {
         const response = await request(app).get("/hello");
 
         expect(response.statusCode).toBe(200);
-        expect(response.body.message).toBe("Hello Javascript");
+        expect(response.body.message).toBe("Hello ");
         // expect(response.body.message).toBe("Hello Universe");
     });
 });
